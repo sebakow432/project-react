@@ -1,4 +1,4 @@
-@import '../../styles/settings.scss';
+@import '../../styles/global.scss';
 
 
 .navigation{
@@ -17,7 +17,8 @@
     }
 
     .icon{
-        font-size: 24px;
+        padding: 0 20px;
+        font-size: 30px;
     }
 
     .menu{
@@ -25,8 +26,12 @@
         list-style-type: none;
         li{
             padding: 0 20px;
-            font-size: 18px;
+            font-size: 20px;
         }
     }
-}
 
+    .linkActive {
+        color: $color-warning; 
+    }
+    
+}
